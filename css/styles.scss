@@ -1,7 +1,10 @@
 ---
 ---
 
+@import "mixins";
 @import "normalize";
-@import "body";
+@import "skeleton";
 @import "fonts";
+
 @import "typographic-scales";
+@import "body";

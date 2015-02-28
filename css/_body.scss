@@ -1,3 +1,61 @@
-body {
-	
+html, body {
+	margin: 0 0 1em 0;
+}
+
+.container, .row, aside {
+}
+
+aside, .main-content {
+	//background-color: gray
+}
+
+aside {
+
+	margin-top: 1em;
+
+	h1, nav header, .address header {
+		font-family: $header-font-family;
+		text-transform: lowercase;
+	}
+
+	nav, .address {
+
+		header {
+			font-weight: bold;
+		}
+
+		margin-top: 1em;
+	}
+}
+
+.main-content {
+	h1, h2, h3, h4 {
+		margin-left: 20px;
+	}
+}
+
+.feature-image {
+	position: relative;
+	margin-bottom: 1em;
+
+	h1, h2 {
+		position: absolute;
+		left: 1.3em;
+		margin-bottom: -0em;
+		color: white;
+		@include stroke(lighten(black, 50%));
+	}
+
+	h1 {
+		top: 47%;
+		left: 1.4em;
+	}
+
+	h2 {
+		bottom: 50%;
+	}
+
+	img {
+		width: 100%;
+	}
 }

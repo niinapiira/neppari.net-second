@@ -1,0 +1,8 @@
+@mixin stroke($stroke-color) {
+	-webkit-text-stroke: 1px $stroke-color;
+	text-shadow:
+		-1px -1px 0 $stroke-color,
+		1px -1px 0 $stroke-color,
+		-1px 1px 0 $stroke-color,
+		1px 1px 0 $stroke-color;
+}

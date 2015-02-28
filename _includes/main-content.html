@@ -1,0 +1,9 @@
+{% if page.feature-image %}
+	<div class="feature-image">
+		<img src="/images/{{ page.feature-image }}" class="feature-image" />
+		<h2>{{ page.feature-title-upper }}</h2>
+		<h1>{{ page.feature-title }}</h1>
+	</div>
+{% endif %}
+
+{{ content }}
